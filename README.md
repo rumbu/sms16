@@ -37,4 +37,4 @@ Usage with [Symfony](https://github.com/symfony/symfony)
 
 4. Send sms:
 
-    $this->container->get('sms.proxy')->send('18001110000', 'Hello!');
+        $this->container->get('sms.proxy')->send('+Phone', 'Text', 'Sender');
