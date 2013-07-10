@@ -17,12 +17,14 @@ Usage with [Symfony](https://github.com/symfony/symfony)
 
 2.  Setup service in `services.yml`:
 
-    sms.proxy:
-        class: You\YourBundle\Sms\smsProxy
-        arguments:
-            login: %sms_login%
-            password: %sms_password%
-            sender: %sms_sender%
+<pre>
+sms.proxy:
+    class: You\YourBundle\Sms\smsProxy
+    arguments:
+        login: %sms_login%
+        password: %sms_password%
+        sender: %sms_sender%
+</pre>
 
 3.  Add parameters to parameters.yml
 
