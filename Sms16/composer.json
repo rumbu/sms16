@@ -1,0 +1,9 @@
+{
+    "name": "rumbu/sms16",
+    "license": "MIT",
+    "type": "project",
+    "description": "php api to sms gate sms16.ru",
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
